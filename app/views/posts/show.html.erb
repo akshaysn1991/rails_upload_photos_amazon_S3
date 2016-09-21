@@ -7,9 +7,8 @@
 
 <p>
   <strong>Image:</strong>
-  <%= @post.image %>
+  <%= image_tag(@post.image.profile_size.url) %>
 </p>
-
 <p>
   <strong>Description:</strong>
   <%= @post.description %>
